@@ -113,10 +113,10 @@ function AboutSection() {
 
           <div className="grid grid-cols-2 gap-3">
             {[
-              { icon: "⚡", label: "Fast Learner", val: "Adapts to new tech quickly" },
-              { icon: "🎨", label: "Design-Minded", val: "Pixel-perfect attention" },
-              { icon: "🔧", label: "Problem Solver", val: "Loves complex challenges" },
-              { icon: "🤝", label: "Collaborative", val: "Team-first mindset" },
+              { icon: "⚡", label: "Zero to Ship", val: "Idea → deployed, in days" },
+              { icon: "🎯", label: "Pixel Obsessed", val: "Every detail earns its place" },
+              { icon: "🧠", label: "Systems Thinker", val: "Complexity made elegant" },
+              { icon: "🚀", label: "Impact-Driven", val: "Code that moves the needle" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -130,13 +130,20 @@ function AboutSection() {
           </div>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-6">
           <p className="text-base text-[var(--muted)] leading-relaxed">
-            Currently at <strong className="text-[var(--text)] font-medium">Symtera Technologies</strong>, I contribute to AI-driven conversational systems and real-world software solutions — growing in both frontend and backend development while strengthening my understanding of scalable system design.
+            Every line of code I write starts with one question:{" "}
+            <em className="text-[var(--text)] not-italic font-medium">does this create real value?</em>{" "}
+            At <strong className="text-[var(--text)] font-semibold">Symtera Technologies</strong>, I architect AI-driven conversational systems that handle real users, real conversations, real stakes — not demos. I don&apos;t ship features; I ship outcomes.
           </p>
           <p className="text-base text-[var(--muted)] leading-relaxed">
-            Outside of work, I enjoy exploring new technologies, improving UI/UX designs, and working on personal projects that challenge my skills. I&apos;m looking forward to opportunities where I can grow as a developer, contribute to impactful projects, and continue building intelligent digital experiences.
+            I&apos;m the developer who stays uncomfortable on purpose — chasing harder problems, sharper interfaces, and smarter systems. Whether it&apos;s a side project at midnight or a production deployment at dawn, I&apos;m always building toward something that{" "}
+            <strong className="text-[var(--text)] font-semibold">actually matters</strong>.
           </p>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 text-[var(--accent)] text-xs font-mono tracking-wider">
+            <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
+            Open to impactful opportunities
+          </div>
         </div>
       </div>
     </section>
