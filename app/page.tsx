@@ -102,13 +102,13 @@ function AboutSection() {
       <div className="grid md:grid-cols-2 gap-16 md:gap-20 mt-14">
         <div className="about-text">
           <p className="text-[var(--muted)] text-base font-light leading-relaxed mb-5">
-            I&apos;m <strong className="text-[var(--text)] font-medium">Afeef Ahmad</strong>, a dedicated developer with a love for clean code and thoughtful design. I specialize in building scalable web applications that balance performance with beautiful user experiences.
+            I&apos;m <strong className="text-[var(--text)] font-medium">Afeef Ahmad</strong>, a passionate Full Stack and AI developer with under one year of professional experience. I enjoy turning ideas into practical, working solutions through clean code, simple design, and strong problem solving.
           </p>
           <p className="text-[var(--muted)] text-base font-light leading-relaxed mb-5">
-            With a strong foundation in both <strong className="text-[var(--text)] font-medium">frontend and backend development</strong>, I bring end-to-end expertise to every project. I&apos;m always exploring new technologies and pushing the boundaries of what&apos;s possible on the web.
+            I work with modern web technologies like <strong className="text-[var(--text)] font-medium">React, Next.js, Node.js, and Python</strong>, and I&apos;m actively exploring AI-powered systems to build smarter, more interactive applications. I focus on writing maintainable code and creating user-friendly interfaces that feel smooth and intuitive.
           </p>
           <p className="text-[var(--muted)] text-base font-light leading-relaxed mb-8">
-            When I&apos;m not coding, I&apos;m contributing to <strong className="text-[var(--text)] font-medium">open source</strong>, learning new frameworks, or designing UI components that spark joy.
+            I have hands-on experience building full stack web applications, integrating APIs, and developing AI-based features such as chat systems and automation tools — always learning and improving to stay aligned with modern development practices.
           </p>
 
           <div className="grid grid-cols-2 gap-3">
@@ -132,10 +132,10 @@ function AboutSection() {
 
         <div className="space-y-4">
           <p className="text-base text-[var(--muted)] leading-relaxed">
-            Full-stack developer building beautiful and functional digital solutions. I specialize in React, Next.js, and modern web technologies.
+            Currently at <strong className="text-[var(--text)] font-medium">Symtera Technologies</strong>, I contribute to AI-driven conversational systems and real-world software solutions — growing in both frontend and backend development while strengthening my understanding of scalable system design.
           </p>
           <p className="text-base text-[var(--muted)] leading-relaxed">
-            Currently at Symtera Technologies working on AI-powered conversational systems. I love clean code, great design, and solving complex problems.
+            Outside of work, I enjoy exploring new technologies, improving UI/UX designs, and working on personal projects that challenge my skills. I&apos;m looking forward to opportunities where I can grow as a developer, contribute to impactful projects, and continue building intelligent digital experiences.
           </p>
         </div>
       </div>
