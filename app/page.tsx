@@ -56,7 +56,7 @@ function HeroSection() {
           </h1>
           
           <p className="text-base md:text-lg text-[var(--muted)] leading-relaxed max-w-xl">
-            Full-stack developer creating beautiful, functional digital solutions. Let's turn your ideas into reality.
+            I build modern web applications using full-stack development and AI, focusing on fast performance, clean design, and solutions that actually make a difference in real use.
           </p>
           
           <div className="flex gap-4 pt-6">
